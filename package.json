@@ -1,0 +1,55 @@
+{
+  "_from": "client-core@2.1.9",
+  "_id": "client-core@2.1.9",
+  "_inBundle": false,
+  "_integrity": "sha512-hyacZIWJ8jXp+a8ZEJJnC/X9Z5GzgVlPXSvObur34LZy5QHsydbtFM3LZ8n5YBKaMwolrmQHSyCJeUT2YcUcUA==",
+  "_location": "/client-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "client-core@2.1.9",
+    "name": "client-core",
+    "escapedName": "client-core",
+    "rawSpec": "2.1.9",
+    "saveSpec": null,
+    "fetchSpec": "2.1.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/client-core/-/client-core-2.1.9.tgz",
+  "_shasum": "8ebd8c99b28ba49d7b4236ab3790d47ef61a3642",
+  "_spec": "client-core@2.1.9",
+  "_where": "C:\\Users\\IdOfir\\Desktop\\Fusion\\react-upgrade\\clients\\fusion",
+  "author": {
+    "name": "ido-ofir"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "baobab": "^2.4.3",
+    "matcher": "^3.0.0",
+    "q": "^1.5.0"
+  },
+  "deprecated": false,
+  "description": "frontend toolchain",
+  "devDependencies": {
+    "create-react-class": ">15.5.2",
+    "prop-types": ">15.5.8",
+    "react": ">16.4.0",
+    "react-dom": ">16.4.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "client-core",
+  "peerDependencies": {
+    "create-react-class": ">15.5.2",
+    "prop-types": ">15.5.8",
+    "react": ">16.4.0",
+    "react-dom": ">16.4.0"
+  },
+  "scripts": {
+    "make-docs": "jsdoc . -t ./node_modules/ink-docstrap/template -R ./README.md -d docs -c ./node_modules/ink-docstrap/template/jsdoc.conf.json"
+  },
+  "version": "2.2.6"
+}
