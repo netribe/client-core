@@ -1,8 +1,8 @@
 
 
-var createReactClass = require('create-react-class');
+import createReactClass from 'create-react-class';
 
-module.exports = {
+export default {
     name: 'core.imports.react-create-class',
     imports: {
         'create-react-class': createReactClass,

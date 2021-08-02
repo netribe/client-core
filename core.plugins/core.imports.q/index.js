@@ -1,8 +1,8 @@
 
 
-var q = require('q');
+import q from 'q';
 
-module.exports = {
+export default {
     name: 'core.imports.q',
     imports: {
         q: q

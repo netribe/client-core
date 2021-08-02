@@ -42,7 +42,7 @@ function getDefinitionObject(name, dependencies, get, type, done) {
   return definition;
 }
 
-module.exports = {
+export default {
   name: 'core.getDefinitionObject',
   init(defintion, done) {
     this.extend({

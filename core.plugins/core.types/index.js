@@ -1,6 +1,17 @@
 
+import boolean from './types/boolean.js'
+import number from './types/number.js'
+import string from './types/string.js'
+import array from './types/array.js'
+import object from './types/object.js'
+import func from './types/function.js'
+import type from './types/type.js'
+import schema from './types/schema.js'
+import code from './types/code.js'
+import keyValue from './types/keyValue.js'
+import plugin from './types/plugin.js'
 
-module.exports = {
+export default {
     name: 'core.types',
     dependencies: [
         'core.getDefinitionObject'
@@ -22,17 +33,17 @@ module.exports = {
                 any(v){ return true; }
             },
             types: {
-                boolean: require('./types/boolean.js'),
-                number: require('./types/number.js'),
-                string: require('./types/string.js'),
-                array: require('./types/array.js'),
-                object: require('./types/object.js'),
-                function: require('./types/function.js'),
-                type: require('./types/type.js'),
-                schema: require('./types/schema.js'),
-                code: require('./types/code.js'),
-                keyValue: require('./types/keyValue.js'),
-                plugin: require('./types/plugin.js'),
+                boolean,
+                number,
+                string,
+                array,
+                object,
+                func,
+                type,
+                schema,
+                code,
+                keyValue,
+                plugin,
             },
             Type(name, dependencies, get){
                 var definition = this.getDefinitionObject(name, dependencies, get, 'type');    
@@ -45,4 +56,4 @@ module.exports = {
         done(extend);
 
     }
-}
+};

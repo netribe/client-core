@@ -42,7 +42,7 @@ Emitter.prototype = {
   }
 };
 
-module.exports = function(object) {
+export default function(object) {
     var emitter = new Emitter();
     if(object){
       for(var m in object){

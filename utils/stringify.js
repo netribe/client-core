@@ -1,5 +1,5 @@
 
-module.exports = function stringify(data, b, c){
+export default function stringify(data, b, c){
   var str = '';
   try {
     str = JSON.stringify(data, b, c);

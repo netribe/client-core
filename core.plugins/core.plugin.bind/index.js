@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.plugin.bind',
     dependencies: [
         'core.tree',

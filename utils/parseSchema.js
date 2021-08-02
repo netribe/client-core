@@ -1,6 +1,6 @@
 
 
-module.exports = function (def) {
+export default function (def) {
   var index, str, last, array;
   if(typeof def === 'string'){
     str = def;
@@ -30,4 +30,4 @@ module.exports = function (def) {
     }
   }
   return def;
-}
+};

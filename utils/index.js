@@ -1,27 +1,28 @@
 
-var assign = require('./assign.js');
-var Emitter = require('./Emitter.js');
-var Promise = require('./Promise.js');
-var Transform = require('./Transform.js');
-var debounce = require('./debounce.js');
-var uuid = require('./uuid.js');
-// var animation = require('./animation.js');
-var immutableMerge = require('./immutableMerge.js');
-var stringify = require('./stringify.js');
-var parse = require('./parse.js');
-var parseSchema = require('./parseSchema.js');
-var validateSchema = require('./validateSchema.js');
-var getPropTypes = require('./getPropTypes.js');
-var find = require('./find.js');
-var set = require('./set.js');
-var merge = require('./merge.js');
-var unset = require('./unset.js');
-var except = require('./except.js');
-var equals = require('./equals.js');
-var ArrayFind = require('./ArrayFind.js');
-var inherit = require('./inherit.js');
+import assign from './assign.js';
+import Emitter from './Emitter.js';
+import Promise from './Promise.js';
+import Transform from './Transform.js';
+import debounce from './debounce.js';
+import uuid from './uuid.js';
 
-module.exports = {
+import immutableMerge from './immutableMerge.js';
+
+import stringify from './stringify.js';
+import parse from './parse.js';
+import parseSchema from './parseSchema.js';
+import validateSchema from './validateSchema.js';
+import getPropTypes from './getPropTypes.js';
+import find from './find.js';
+import set from './set.js';
+import merge from './merge.js';
+import unset from './unset.js';
+import except from './except.js';
+import equals from './equals.js';
+import ArrayFind from './ArrayFind.js';
+import inherit from './inherit.js';
+
+export default {
   Emitter: Emitter,
   Promise: Promise,
   Transform: Transform,

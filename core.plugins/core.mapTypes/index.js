@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: 'core.mapTypes',
     extend: {
         flatten(source, result) {

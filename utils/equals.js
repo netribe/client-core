@@ -26,4 +26,4 @@ function equals(a, b){
   }
 }
 
-module.exports = equals;
+export default equals;

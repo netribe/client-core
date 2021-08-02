@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: 'core.build',
     dependecies: [
         'core.types'

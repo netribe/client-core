@@ -20,7 +20,7 @@
  * core.ok();  // '√'
  */
 
-module.exports = {
+export default {
     name: 'core.plugin.extend',
     init(definition, done){
         var core = this;

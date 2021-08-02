@@ -1,7 +1,8 @@
 
 
-var react = require('react');
-module.exports = {
+import react from 'react';
+
+export default {
     name: 'core.imports.react',
     imports: {
         react: react,

@@ -52,7 +52,7 @@ var loadDox = (function(){
 }
 }());
 
-module.exports = {
+export default {
     name: 'core.dox',
     init(definition, done){
         

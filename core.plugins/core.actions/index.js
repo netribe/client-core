@@ -1,7 +1,8 @@
 
-var utils = require('./utils.js');
+import utils from './utils.js';
+import type from './type.js';
 
-module.exports = {
+export default {
   name: 'core.actions',
   dependencies: [
     'core.getDefinitionObject',
@@ -14,7 +15,7 @@ module.exports = {
    * @description The type definition for an action.
    */
   types: [
-    require('./type.js')
+    type
   ],
   extend: {
     /**

@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.plugin.types',
     init(definition, done){
         

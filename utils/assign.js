@@ -35,7 +35,7 @@ function polyfill() {
 
 polyfill();
 
-module.exports = {
+export default {
   assign: assign,
   polyfill: polyfill
 };

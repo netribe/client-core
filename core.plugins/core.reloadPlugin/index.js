@@ -1,5 +1,5 @@
-
-module.exports = require('./core.reloadPlugin.js');
+import reloadPlugin from './core.reloadPlugin.js'
+export default reloadPlugin;
 
 if(module.hot) {
     module.hot.accept('./core.reloadPlugin.js', function() {

@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.test',
     extend: {
         tests: {},

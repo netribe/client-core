@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.bequeath',
     extend:{
         bequeath(definition, options) {

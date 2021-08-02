@@ -15,7 +15,7 @@ myList.loko;      // 8
 
 ***/
 
-module.exports = function Injector(constructed){
+export default function Injector(constructed){
 
   var modules = {};             // all loaded modules.
   var paths = {};
@@ -305,4 +305,4 @@ module.exports = function Injector(constructed){
   };
   
   return injector;
-}
+};

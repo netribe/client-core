@@ -32,10 +32,10 @@ if (!cancel){
   };
 }
 
-module.exports = function(callback){
+export default function(callback){
   var id;
   return {
     start(){ id = request(callback); },
     stop(){ cancel(id) }
   }
-}
+};

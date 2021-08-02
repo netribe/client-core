@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.prepend',
     extend: {
         prepend(prefix, text){

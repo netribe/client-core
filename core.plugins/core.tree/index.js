@@ -1,6 +1,6 @@
 
 
-module.exports = {
+export default {
     name: 'core.tree',
     dependencies: ['core.imports'],
     init(def, done) {

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: 'core.templates',
     dependencies: [
         'core.getDefinitionObject',

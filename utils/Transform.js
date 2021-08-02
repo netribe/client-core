@@ -93,4 +93,4 @@ function Transform(style, comp){
   return instance;
 }
 
-module.exports = Transform;
+export default Transform;

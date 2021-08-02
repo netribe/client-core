@@ -27,7 +27,7 @@ function select(name, path) {
     return this.tree.select(['plugins', name].concat(path));
 }
 
-module.exports = {
+export default {
     name: 'core.plugin.tree',
     dependencies: [
         'core.tree'

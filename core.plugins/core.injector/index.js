@@ -1,7 +1,7 @@
-var Injector = require('./Injector.js');
+import Injector from './Injector.js';
 
 
-module.exports = {
+export default {
     name: 'core.injector',
     init(plugin, done) {
         var core = this;

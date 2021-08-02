@@ -1,7 +1,8 @@
 
 
-var reactDom = require('react-dom');
-module.exports = {
+import reactDom from 'react-dom';
+
+export default {
     name: 'core.imports.react-dom',
     imports: {
         reactDom: reactDom,

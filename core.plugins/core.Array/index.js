@@ -20,9 +20,9 @@ function ArrayFind(array){
   }
   array.find = find;
   return array;
-};
+}
 
-module.exports = {
+export default {
     name: 'core.Array',
     extend: {
         Array: ArrayFind

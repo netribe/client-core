@@ -17,4 +17,4 @@ function unset(source, path) {
   return result;
 }
 
-module.exports = unset;
+export default unset;

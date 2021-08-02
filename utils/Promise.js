@@ -1,5 +1,5 @@
 
-var Q = require('q');
+import Q from 'q';
 
 function callback(err, rest) {
   var args = [].slice.call(arguments);
@@ -8,8 +8,9 @@ function callback(err, rest) {
   }
   return this.resolve.apply(this, args);
 }
-module.exports = function Promise() {
+
+export default function Promise() {
   var defered = Q.defer();
   defered.callback = callback;
   return defered;
-}
+};

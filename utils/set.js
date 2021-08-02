@@ -21,4 +21,4 @@ function set(source, path, value){
   return result;
 }
 
-module.exports = set;
+export default set;

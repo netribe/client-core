@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: 'core.bindings',
     dependencies: [
         'imports.react',

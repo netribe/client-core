@@ -1,5 +1,5 @@
 
-module.exports = function find(array, q) {
+export default function find(array, q) {
   var i, m, passed;
   for (i = 0; i < array.length; i++) {
     if(array[i] === q) return array[i];
@@ -12,4 +12,4 @@ module.exports = function find(array, q) {
     }
     if(passed) return array[i];
   }
-}
+};

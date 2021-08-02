@@ -1,5 +1,5 @@
-const React = require("react");
-const matcher = require('matcher');
+import React from 'react';
+import matcher from 'matcher';
 
 const HotComponent = (Component) => {
     let instanceId = 0;
@@ -62,7 +62,7 @@ const matchRule = (id, rules) => {
 
 let wr = __webpack_require__;
 
-module.exports = {
+export default {
     name: 'core.hot',
     init(definition, done){
         let core = this;
@@ -340,4 +340,4 @@ module.exports = {
         core.HotComponent = HotComponent;
         done(core.hot);
     }
-}
+};

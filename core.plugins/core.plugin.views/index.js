@@ -1,5 +1,5 @@
 
-module.exports = {
+export default {
     name: 'core.plugin.views',
     hooks: [{
         channel: 'core.pluginDefinition',

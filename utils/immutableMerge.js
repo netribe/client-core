@@ -3,7 +3,7 @@
 // all changed values and their containers will be different.
 // the rest will stay the same.
 
-module.exports = function immutableMerge(oldValue, newValue){
+export default function immutableMerge(oldValue, newValue){
   var changed = false;
   var result, oldKeys, newKeys;
   if(newValue === oldValue || !newValue || !oldValue || typeof newValue !== 'object' || typeof oldValue !== 'object'){ return newValue; }

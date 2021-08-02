@@ -1,5 +1,5 @@
 
-module.exports = function parse(data){
+export default function parse(data){
   try {
     return JSON.parse(data);
   } catch (e) {

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   name: 'action',
   recursive: true,
   schema: {

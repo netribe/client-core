@@ -71,7 +71,7 @@ function validateSchema(schema, types, params, actionName) {
   return schema;
 }
 
-module.exports = {
+export default {
     validateSchema: validateSchema,
     parseSchema: parseSchema,
     typeOf: typeOf,

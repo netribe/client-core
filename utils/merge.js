@@ -1,5 +1,5 @@
 
-module.exports = function merge(){
+export default function merge(){
   var result = {};
   var obj;
   for (var i = 0; i < arguments.length; i++) {

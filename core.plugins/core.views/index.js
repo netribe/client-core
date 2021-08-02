@@ -1,7 +1,7 @@
 
-var React = require('react');
+import React from 'react';
 
-module.exports = {
+export default {
     name: 'core.views',
     dependencies: [
         'core.getDefinitionObject',

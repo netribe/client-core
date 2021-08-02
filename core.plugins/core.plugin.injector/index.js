@@ -1,6 +1,6 @@
 
 
-module.exports = {
+export default {
     name: 'core.plugin.injector',
     dependencies: ['core.injector'],
     init(definition, done) {

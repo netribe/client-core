@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     name: 'core.eventEmitter',
     init(plugin, done) {
 

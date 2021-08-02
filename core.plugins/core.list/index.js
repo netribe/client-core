@@ -42,7 +42,7 @@ List.prototype = {
     }
 }
 
-module.exports = {
+export default {
     name: 'core.list',
     tree: {},
     instances: {},
@@ -65,4 +65,4 @@ module.exports = {
             return instance;
         }
     }
-}
+};

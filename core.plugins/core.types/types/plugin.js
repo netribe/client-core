@@ -29,7 +29,7 @@ function Select(name){
   }
 }
 
-module.exports = {
+export default {
   name: 'plugin',
   recursive(def){
     return def && !!def.recursive;

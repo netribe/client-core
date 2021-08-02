@@ -1,8 +1,8 @@
 
 
-var baobab = require('baobab');
+import baobab from 'baobab';
 
-module.exports = {
+export default {
     name: 'core.imports.baobab',
     imports: {
         baobab: baobab

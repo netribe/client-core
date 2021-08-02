@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   name: 'number',
   schema: {
     value: 'number'

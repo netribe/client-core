@@ -2,7 +2,7 @@
 
 var name, pluginName, mod, modules;
 
-module.exports = {
+export default {
     name: 'core.plugin.modules',
     dependencies: [
         'core.plugin.hooks',

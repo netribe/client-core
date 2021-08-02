@@ -1,6 +1,6 @@
 
 
-module.exports = {
+export default {
     name: 'core.plugin.actions',
     hooks: [{
         channel: 'core.pluginDefinition',

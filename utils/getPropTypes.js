@@ -1,4 +1,4 @@
-module.exports = function getPropTypes(propTypes, PropTypes) {
+export default function getPropTypes(propTypes, PropTypes) {
   if(!propTypes) return;
   var key, item, PropType, index, required;
   var pt = {};
@@ -20,4 +20,4 @@ module.exports = function getPropTypes(propTypes, PropTypes) {
     }
   }
   return pt;
-}
+};

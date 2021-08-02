@@ -383,4 +383,4 @@ Core.prototype = {
     }
 }
 
-module.exports = Core;
+export default Core;

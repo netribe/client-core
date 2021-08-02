@@ -1,5 +1,5 @@
 
-let React = require('react');
+import React from 'react';
 
 function getPropTypes(propTypes, PropTypes) {
     if (!propTypes) return;
@@ -24,7 +24,7 @@ function getPropTypes(propTypes, PropTypes) {
     return pt;
 }
 
-module.exports = {
+export default {
     name: 'core.components',
     dependencies: [
         'core.getDefinitionObject',

@@ -1,8 +1,8 @@
 
 
-var PropTypes = require('prop-types');
+import PropTypes from 'prop-types';
 
-module.exports = {
+export default {
     name: 'core.imports.prop-types',
     imports: {
         'prop-types': PropTypes,
