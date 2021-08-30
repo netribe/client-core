@@ -41,7 +41,7 @@ import treePlugin from './core.plugins/core.plugin.tree'
 import bind from './core.plugins/core.plugin.bind'
 import componentsPlugin from './core.plugins/core.plugin.components'
 import viewsPlugin from './core.plugins/core.plugin.views'
-import hot from './core.plugins/core.hot'
+
 import list from './core.plugins/core.list'
 
 /**
@@ -90,7 +90,7 @@ var core = new Core({
       bind,      
       componentsPlugin,
       viewsPlugin,
-      hot,
+
       list,
     ]
 });
