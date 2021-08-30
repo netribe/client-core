@@ -74,9 +74,9 @@ export default {
             require: wr,
             enable(enableOptions){
                 core.hot.enableOptions = enableOptions || {};
-                if(module.hot){
-                    core._isHotReloadingEnabled = true;
-                }
+                // if(module.hot){
+                //     core._isHotReloadingEnabled = true;
+                // }
             },
             match(pattern){
                 return Object.keys(wr.c).filter(id => matcher.isMatch(String(id), pattern))

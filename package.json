@@ -51,5 +51,5 @@
   "scripts": {
     "make-docs": "jsdoc . -t ./node_modules/ink-docstrap/template -R ./README.md -d docs -c ./node_modules/ink-docstrap/template/jsdoc.conf.json"
   },
-  "version": "3.0.0"
+  "version": "3.0.1"
 }
